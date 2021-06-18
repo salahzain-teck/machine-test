@@ -1,0 +1,13 @@
+.home{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.sidebar_div{
+    width: 13%;
+    
+}
+
+.content_div{
+    width:88%
+}

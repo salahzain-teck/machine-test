@@ -1,0 +1,44 @@
+.contact_items  tr:nth-of-type(odd) {
+    background-color:#f3f2f8;
+}
+.contact_header{
+    height: 30px;
+}
+
+.contacts_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(230, 230, 230);
+    height: 40px;
+    align-items: center;
+  
+}
+.contacts_header h6{
+    font-size: 14px;
+}
+.contact_items{
+    width: 100%;
+    /* margin-left: 22px; */
+    padding-left: 22px;
+    background-color: rgb(230, 230, 230);
+  
+}
+.more_button{
+    width:100%;
+     margin-top: 30px;
+    font-size: 14px;
+    font-weight: 600;
+ 
+    display: flex;
+    justify-content: center;
+}
+.more_button button {
+    border: none;
+    background-color: white;
+    font-weight: 600;
+    width:200px;
+    margin: auto;
+}

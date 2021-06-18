@@ -1,0 +1,16 @@
+.salesPlan{
+    width: 350px;
+    height: 300px;
+   
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    -webkit-box-shadow: 0 0 10px grey;
+        box-shadow: 0 0 5px gray;
+    /* display: flex;
+    flex-direction: column;  */
+}
+.salesPlan hr{
+    width: 92%;
+    margin-left: 10px;
+}

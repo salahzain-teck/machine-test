@@ -1,0 +1,91 @@
+.sidebar{
+  background-color:#010a11 ;
+  height: 140vh;
+}
+.header_box{
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    background-color: #0e2b47;
+  
+}
+.sales{
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    background-color: #0FA0CE;
+    color: white;
+}
+.sales h4{
+    margin-left: 18px;
+    font-size: 15px;
+    margin-left: 18px;
+}
+.outer_box{
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    background-color: #072038;
+    margin-top: 1px;
+    color: rgb(65, 132, 153);
+}
+.outer_box h4{
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 18px;
+}
+.items {
+    background-color: #163350;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    color: rgb(65, 132, 153);
+}
+
+.items h4 {
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.history_div{
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    background-color: #072038;
+    margin-top: 1px;
+    color: gray;
+    
+}
+.history_div h4{
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+.icons{
+    margin-left: 18px;
+}
+
+.arrow_icon{
+    margin-left: 7px;
+}
+.history{
+    margin-left: 10px;
+}
+.history_text h4{
+    margin-top: 45px;
+}
+
+.active{
+    background-color: #163350;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-size: 14px;
+}

@@ -1,0 +1,85 @@
+.navbar{
+    height:70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    -webkit-box-shadow: 0 8px 6px -6px gray;
+    -moz-box-shadow: 0 8px 6px -6px gray;
+         box-shadow: 0 8px 6px -6px gray;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    color: gray;
+    margin-left: 25px;
+}
+.input_div{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    justify-content: space-between;
+    height: 28px;
+    border-radius: 8px;
+    margin-left: 15px;
+    box-shadow: gray 1px 1px 2px 2px;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 390px;
+    align-items: center;
+    margin-right: 10px;
+    color: rgb(60, 94, 122);
+
+}
+.name_div{
+  
+    height: 50px;
+   
+}
+.caption_p {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: -14px;
+
+}
+.name_p{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 4px;
+
+}
+.name_div > span > p{
+    font-size: 12px;
+}
+.help{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    color: white;
+    background-color: #0FA0CE;
+    width: 90px;
+    height: 33px;
+   
+    border-radius: 20px;
+   
+
+}
+
+.help h5{
+    margin-left: 15px;
+    font-size: 20px;
+}
+.help p {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
