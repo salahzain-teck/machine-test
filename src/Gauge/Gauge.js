@@ -1,5 +1,5 @@
 import React from 'react'
-import GaugeChart from 'react-gauge-chart'
+import GaugeChart from 'react-gauge-chart';
 import './Gauge.css'
 function Gauge() {
     return (
@@ -13,6 +13,6 @@ function Gauge() {
 />
         </div>
     )
-}
+}      
 
-export default Gauge
+export default Gauge            

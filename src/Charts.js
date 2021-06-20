@@ -16,6 +16,7 @@ import LineGraphFrame from './Lingraph/LineGraphFrame';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
+
 function Charts() {
     return (
         <div className='chart'>
@@ -38,7 +39,7 @@ function Charts() {
 
             <div className='content'>
                
-              
+            
               
               
 

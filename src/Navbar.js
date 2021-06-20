@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbar.css'
 
 import MenuIcon from '@material-ui/icons/Menu';
@@ -7,23 +7,29 @@ import Avatar from '@material-ui/core/Avatar';
 import SettingsIcon from '@material-ui/icons/Settings';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import ForwardIcon from '@material-ui/icons/Forward';
-import Accordion from 'react-bootstrap/Accordion'
-import Card from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/esm/Button';
-
+import MenuDropdown from './components/MenuDropdown';
+ 
 
 function Navbar() {
+
+    const [state, setstate] = useState(false)
+
     return (
         <div className = 'navbar'>
             <div className='left'>
 
-             
-      < MenuIcon />  
+           <div className='dropdown'>
+           < MenuIcon  onClick={()=>setstate(!state)} /> 
+           {state &&  <MenuDropdown /> }
+          
+         
+               </div>  
+       
      
              
              <div className='input_div'>
-                 
-                 <p>Search</p>
+                 <input placeholder='Search'/>
+              
                  < SearchIcon/>
 
              </div>

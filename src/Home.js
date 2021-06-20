@@ -4,6 +4,7 @@ import Sidebar from './Sidebar'
 import './Home.css'
 import Charts from './Charts'
 
+
 function Home() {
     return (
         <div className='home'>
@@ -12,6 +13,7 @@ function Home() {
             </div>
             <div className='content_div'>
                 <Navbar/>
+           
                 <Charts/>
             </div>
         </div>
